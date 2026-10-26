@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yeshua — Bible</title>
+<meta name="description" content="Yeshua : la Bible complète en français, anglais et allemand, en plusieurs versions, avec audio et enseignements.">
+<meta name="theme-color" content="#1f2a55">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <button class="ref-btn" id="refBtn" aria-label="Livre et chapitre"></button>
+  <select id="verSel" aria-label="Version"></select>
+</header>
+
+<main id="main">
+  <section id="v-read" class="view">
+    <div class="toolbar">
+      <button id="prevBtn" aria-label="Précédent">‹</button>
+      <button id="audioBtn" class="primary" aria-label="Écouter">▶</button>
+      <button id="stopBtn" aria-label="Arrêter">■</button>
+      <select id="rateSel" aria-label="Vitesse">
+        <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option><option value="1" selected>1×</option>
+        <option value="1.2">1.2×</option><option value="1.5">1.5×</option>
+      </select>
+      <select id="bvSel" aria-label="Voix"><option value="f">♀</option><option value="m">♂</option></select>
+      <select id="cmpSel" aria-label="Comparer"></select>
+      <button id="nextBtn" aria-label="Suivant">›</button>
+    </div>
+    <div id="audioStatus" class="astatus" hidden></div>
+    <div id="notice" class="notice" hidden></div>
+    <article id="text" class="text"></article>
+  </section>
+
+  <section id="v-search" class="view" hidden>
+    <form id="searchForm" class="search">
+      <select id="scopeSel" aria-label="Portée"></select>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search">
+      <button class="primary" type="submit">⌕</button>
+    </form>
+    <div id="results"></div>
+  </section>
+
+  <section id="v-med" class="view" hidden><div id="medBox"></div></section>
+
+  <section id="v-teach" class="view" hidden><div id="teachBox"></div></section>
+  <section id="v-saved" class="view" hidden><div id="savedBox"></div></section>
+  <section id="v-set" class="view" hidden><div id="setBox"></div></section>
+</main>
+
+<nav class="bottom" id="nav">
+  <button data-v="read" class="on"><span>📖</span><i data-t="read"></i></button>
+  <button data-v="search"><span>🔍</span><i data-t="search"></i></button>
+  <button data-v="med"><span>🙏</span><i data-t="med"></i></button>
+  <button data-v="teach"><span>🕊</span><i data-t="teach"></i></button>
+  <button data-v="saved"><span>♥</span><i data-t="saved"></i></button>
+  <button data-v="set"><span>⚙</span><i data-t="settings"></i></button>
+</nav>
+
+<div id="scrim" hidden></div>
+<div id="sheet" role="dialog" aria-modal="true" hidden></div>
+<script src="config.js"></script>
+<script src="data/books.js"></script>
+<script src="data/versions.js"></script>
+<script src="data/teachings.js"></script>
+<script src="data/booksinfo.js"></script>
+<script src="data/meditation.js"></script>
+<script src="voice.js"></script>
+<script src="app.js"></script>
+<script src="music.js"></script>
+<script src="meditation.js"></script>
+<script>if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){navigator.serviceWorker.register("sw.js").catch(function(){});}</script>
+</body>
+</html>
