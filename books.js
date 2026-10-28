@@ -1,0 +1,27 @@
+// 66 livres : [chapitres, nom FR, nom EN, nom DE]  (ordre canonique protestant)
+window.YESHUA_BOOKS = [
+  [50,"Genèse","Genesis","1. Mose"],[40,"Exode","Exodus","2. Mose"],[27,"Lévitique","Leviticus","3. Mose"],
+  [36,"Nombres","Numbers","4. Mose"],[34,"Deutéronome","Deuteronomy","5. Mose"],[24,"Josué","Joshua","Josua"],
+  [21,"Juges","Judges","Richter"],[4,"Ruth","Ruth","Rut"],[31,"1 Samuel","1 Samuel","1. Samuel"],
+  [24,"2 Samuel","2 Samuel","2. Samuel"],[22,"1 Rois","1 Kings","1. Könige"],[25,"2 Rois","2 Kings","2. Könige"],
+  [29,"1 Chroniques","1 Chronicles","1. Chronik"],[36,"2 Chroniques","2 Chronicles","2. Chronik"],
+  [10,"Esdras","Ezra","Esra"],[13,"Néhémie","Nehemiah","Nehemia"],[10,"Esther","Esther","Ester"],
+  [42,"Job","Job","Hiob"],[150,"Psaumes","Psalms","Psalmen"],[31,"Proverbes","Proverbs","Sprüche"],
+  [12,"Ecclésiaste","Ecclesiastes","Prediger"],[8,"Cantique des cantiques","Song of Solomon","Hohelied"],
+  [66,"Ésaïe","Isaiah","Jesaja"],[52,"Jérémie","Jeremiah","Jeremia"],[5,"Lamentations","Lamentations","Klagelieder"],
+  [48,"Ézéchiel","Ezekiel","Hesekiel"],[12,"Daniel","Daniel","Daniel"],[14,"Osée","Hosea","Hosea"],
+  [3,"Joël","Joel","Joel"],[9,"Amos","Amos","Amos"],[1,"Abdias","Obadiah","Obadja"],[4,"Jonas","Jonah","Jona"],
+  [7,"Michée","Micah","Micha"],[3,"Nahum","Nahum","Nahum"],[3,"Habacuc","Habakkuk","Habakuk"],
+  [3,"Sophonie","Zephaniah","Zefanja"],[2,"Aggée","Haggai","Haggai"],[14,"Zacharie","Zechariah","Sacharja"],
+  [4,"Malachie","Malachi","Maleachi"],
+  [28,"Matthieu","Matthew","Matthäus"],[16,"Marc","Mark","Markus"],[24,"Luc","Luke","Lukas"],
+  [21,"Jean","John","Johannes"],[28,"Actes","Acts","Apostelgeschichte"],[16,"Romains","Romans","Römer"],
+  [16,"1 Corinthiens","1 Corinthians","1. Korinther"],[13,"2 Corinthiens","2 Corinthians","2. Korinther"],
+  [6,"Galates","Galatians","Galater"],[6,"Éphésiens","Ephesians","Epheser"],[4,"Philippiens","Philippians","Philipper"],
+  [4,"Colossiens","Colossians","Kolosser"],[5,"1 Thessaloniciens","1 Thessalonians","1. Thessalonicher"],
+  [3,"2 Thessaloniciens","2 Thessalonians","2. Thessalonicher"],[6,"1 Timothée","1 Timothy","1. Timotheus"],
+  [4,"2 Timothée","2 Timothy","2. Timotheus"],[3,"Tite","Titus","Titus"],[1,"Philémon","Philemon","Philemon"],
+  [13,"Hébreux","Hebrews","Hebräer"],[5,"Jacques","James","Jakobus"],[5,"1 Pierre","1 Peter","1. Petrus"],
+  [3,"2 Pierre","2 Peter","2. Petrus"],[5,"1 Jean","1 John","1. Johannes"],[1,"2 Jean","2 John","2. Johannes"],
+  [1,"3 Jean","3 John","3. Johannes"],[1,"Jude","Jude","Judas"],[22,"Apocalypse","Revelation","Offenbarung"]
+];
